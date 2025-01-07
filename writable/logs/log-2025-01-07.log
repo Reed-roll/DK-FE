@@ -1,0 +1,1548 @@
+CRITICAL - 2025-01-07 04:49:33 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: login]
+in APPPATH\Controllers\AuthController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+CRITICAL - 2025-01-07 04:52:16 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: login]
+in APPPATH\Controllers\AuthController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-07 04:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 04:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 05:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 09:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 10:02:28 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 10:02:29 --> Response status: 200
+DEBUG - 2025-01-07 10:02:29 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 10:02:29 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 10:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 10:03:34 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 10:03:34 --> Response status: 200
+DEBUG - 2025-01-07 10:03:34 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 10:03:34 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 10:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 10:04:50 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 10:04:51 --> Response status: 200
+DEBUG - 2025-01-07 10:04:51 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 10:04:51 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 10:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 10:08:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "feed/creator_profile.php"
+[Method: GET, Route: feed/creator/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('feed/creator_profile.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('feed/creator_profile', [], true)
+ 3 APPPATH\Controllers\FeedController.php(75): view('feed/creator_profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FeedController->creatorProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+CRITICAL - 2025-01-07 10:08:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "feed/creator_profile.php"
+[Method: GET, Route: feed/creator/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('feed/creator_profile.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('feed/creator_profile', [], true)
+ 3 APPPATH\Controllers\FeedController.php(75): view('feed/creator_profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FeedController->creatorProfile('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+DEBUG - 2025-01-07 10:08:47 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 10:08:47 --> Response status: 200
+DEBUG - 2025-01-07 10:08:47 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 10:08:47 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 10:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 10:16:43 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 10:16:43 --> Response status: 200
+DEBUG - 2025-01-07 10:16:43 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 10:16:43 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 10:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 10:18:24 --> Feed error: Undefined variable $debug
+CRITICAL - 2025-01-07 10:18:24 --> ErrorException: Undefined variable $debug
+[Method: GET, Route: feed]
+in APPPATH\Views\feed\index.php on line 12.
+ 1 APPPATH\Views\feed\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debug', 'D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\feed\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\feed\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('feed/index', [], true)
+ 5 APPPATH\Controllers\FeedController.php(48): view('feed/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FeedController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-07 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 10:22:40 --> Feed error: 22 : The requested URL returned error: 404
+INFO - 2025-01-07 10:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 10:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 12:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 12:48:58 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 12:48:58 --> Response status: 200
+DEBUG - 2025-01-07 12:48:58 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 12:48:58 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 12:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 12:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 12:49:01 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 12:49:01 --> Response status: 200
+DEBUG - 2025-01-07 12:49:01 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 12:49:01 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 12:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 12:49:14 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 12:49:14 --> Response status: 200
+DEBUG - 2025-01-07 12:49:14 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 12:49:14 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 12:49:50 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 12:49:50 --> Response status: 200
+DEBUG - 2025-01-07 12:49:50 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 12:49:50 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 12:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 12:49:54 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 12:49:54 --> Response status: 200
+DEBUG - 2025-01-07 12:49:54 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"}]
+DEBUG - 2025-01-07 12:49:54 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+)
+
+INFO - 2025-01-07 12:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 13:57:32 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 13:57:33 --> Response status: 200
+DEBUG - 2025-01-07 13:57:33 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"}]
+DEBUG - 2025-01-07 13:57:33 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [creator_id] => 2
+            [title] => video
+            [description] => deskripsi video
+            [category] => video
+            [file_path] => uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png
+            [likes] => 0
+            [created_at] => 2025-01-07 13:57:32
+            [updated_at] => 2025-01-07 13:57:32
+        )
+
+)
+
+INFO - 2025-01-07 13:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 13:58:34 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 13:58:35 --> Response status: 200
+DEBUG - 2025-01-07 13:58:35 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 13:58:35 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [creator_id] => 2
+            [title] => video
+            [description] => deskripsi video
+            [category] => video
+            [file_path] => uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png
+            [likes] => 0
+            [created_at] => 2025-01-07 13:57:32
+            [updated_at] => 2025-01-07 13:57:32
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [creator_id] => 4
+            [title] => video 2
+            [description] => deskripsi video 2
+            [category] => video
+            [file_path] => uploads/portfolios/1736258318_899f043046782dd0e35a.png
+            [likes] => 0
+            [created_at] => 2025-01-07 13:58:38
+            [updated_at] => 2025-01-07 13:58:38
+        )
+
+)
+
+INFO - 2025-01-07 13:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 13:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 13:59:44 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 13:59:44 --> Response status: 200
+DEBUG - 2025-01-07 13:59:44 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 13:59:44 --> Decoded portfolios: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [creator_id] => 2
+            [title] => gambar 1
+            [description] => deskripsi gambar 1
+            [category] => gambar 1
+            [file_path] => uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png
+            [likes] => 0
+            [created_at] => 2025-01-07 09:44:21
+            [updated_at] => 2025-01-07 09:44:21
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [creator_id] => 2
+            [title] => video
+            [description] => deskripsi video
+            [category] => video
+            [file_path] => uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png
+            [likes] => 0
+            [created_at] => 2025-01-07 13:57:32
+            [updated_at] => 2025-01-07 13:57:32
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [creator_id] => 4
+            [title] => video 2
+            [description] => deskripsi video 2
+            [category] => video
+            [file_path] => uploads/portfolios/1736258318_899f043046782dd0e35a.png
+            [likes] => 0
+            [created_at] => 2025-01-07 13:58:38
+            [updated_at] => 2025-01-07 13:58:38
+        )
+
+)
+
+INFO - 2025-01-07 13:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 13:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:09:04 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:09:05 --> Response status: 200
+DEBUG - 2025-01-07 14:09:05 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+ERROR - 2025-01-07 14:09:05 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:09:05 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:09:06 --> Error fetching creator name: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:09:10 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:09:10 --> Response status: 200
+DEBUG - 2025-01-07 14:09:10 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+ERROR - 2025-01-07 14:09:10 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:09:11 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:09:11 --> Error fetching creator name: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:10:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:10:12 --> Response status: 200
+DEBUG - 2025-01-07 14:10:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+ERROR - 2025-01-07 14:10:13 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:10:13 --> Error fetching creator name: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:10:13 --> Error fetching creator name: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:15:17 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:15:18 --> Response status: 200
+DEBUG - 2025-01-07 14:15:18 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:15:18 --> Fetching name for creator ID: 2
+ERROR - 2025-01-07 14:15:18 --> Error fetching creator name: 22 : The requested URL returned error: 400 for ID: 2
+DEBUG - 2025-01-07 14:15:18 --> Fetching name for creator ID: 2
+ERROR - 2025-01-07 14:15:18 --> Error fetching creator name: 22 : The requested URL returned error: 400 for ID: 2
+DEBUG - 2025-01-07 14:15:18 --> Fetching name for creator ID: 4
+ERROR - 2025-01-07 14:15:18 --> Error fetching creator name: 22 : The requested URL returned error: 400 for ID: 4
+INFO - 2025-01-07 14:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:16:22 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:16:22 --> Response status: 200
+DEBUG - 2025-01-07 14:16:22 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:16:22 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:16:23 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:16:23 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:16:23 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:16:23 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:16:23 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:22:07 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:22:07 --> Response status: 200
+DEBUG - 2025-01-07 14:22:07 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:22:07 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:22:07 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:22:07 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:22:08 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:22:08 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:22:08 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:22:10 --> Fetching creator details for ID: 2
+DEBUG - 2025-01-07 14:22:10 --> Fetching portfolios for creator ID: 2
+ERROR - 2025-01-07 14:22:10 --> Creator profile error: Undefined array key "name"
+INFO - 2025-01-07 14:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:22:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:22:12 --> Response status: 200
+DEBUG - 2025-01-07 14:22:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:22:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:22:12 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:22:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:22:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:22:13 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:22:13 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:24:10 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:24:10 --> Response status: 200
+DEBUG - 2025-01-07 14:24:10 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:24:10 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:24:10 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:24:10 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:24:10 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:24:10 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:24:11 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:24:12 --> Fetching creator details for ID: 2
+DEBUG - 2025-01-07 14:24:12 --> Creator response status: 200
+DEBUG - 2025-01-07 14:24:12 --> Creator response body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:24:12 --> Fetching portfolios for creator ID: 2
+ERROR - 2025-01-07 14:24:12 --> Creator profile error: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:24:14 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:24:14 --> Response status: 200
+DEBUG - 2025-01-07 14:24:14 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:24:14 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:24:14 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:24:14 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:24:14 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:24:14 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:24:15 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:25:25 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:25:26 --> Response status: 200
+DEBUG - 2025-01-07 14:25:26 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:25:26 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:25:26 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:25:26 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:25:26 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:25:26 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:25:26 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:25:28 --> Fetching creator details for ID: 2
+DEBUG - 2025-01-07 14:25:29 --> Creator response status: 200
+DEBUG - 2025-01-07 14:25:29 --> Creator response body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:25:29 --> Fetching portfolios for creator ID: 2
+ERROR - 2025-01-07 14:25:29 --> Creator profile error: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:25:30 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:25:31 --> Response status: 200
+DEBUG - 2025-01-07 14:25:31 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:25:31 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:25:31 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:25:31 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:25:31 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:25:31 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:25:31 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:26:11 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:26:11 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:26:11 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:26:11 --> Response Headers: {"Cache-Control":[{},{}],"Date":{},"Server":{},"X-Powered-By":{},"Content-Length":{},"Content-Type":{}}
+DEBUG - 2025-01-07 14:26:11 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:26:11 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:26:11 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:26:11 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?id=2
+ERROR - 2025-01-07 14:26:12 --> === ERROR DEBUG ===
+ERROR - 2025-01-07 14:26:12 --> Error Message: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:26:12 --> Error Trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(187): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\FeedController.php(112): CodeIgniter\HTTP\CURLRequest->get('http://54.206.7...')
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\FeedController->creatorProfile('2')
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 14:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:28:02 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:28:02 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:28:02 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:28:02 --> Response Headers: {"Cache-Control":[{},{}],"Date":{},"Server":{},"X-Powered-By":{},"Content-Length":{},"Content-Type":{}}
+DEBUG - 2025-01-07 14:28:02 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:28:02 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:28:02 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:28:02 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator
+DEBUG - 2025-01-07 14:28:02 --> Portfolio Request Body: {"name":"john doe"}
+ERROR - 2025-01-07 14:28:02 --> === ERROR DEBUG ===
+ERROR - 2025-01-07 14:28:02 --> Error Message: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:28:02 --> Error Trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\FeedController.php(112): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\FeedController->creatorProfile('2')
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:28:04 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:28:04 --> Response status: 200
+DEBUG - 2025-01-07 14:28:04 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:28:04 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:28:05 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:28:05 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:28:05 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:28:05 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:28:05 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:28:10 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:28:10 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:28:10 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:28:10 --> Response Headers: {"Cache-Control":[{},{}],"Date":{},"Server":{},"X-Powered-By":{},"Content-Length":{},"Content-Type":{}}
+DEBUG - 2025-01-07 14:28:10 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:28:10 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:28:10 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:28:10 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator
+DEBUG - 2025-01-07 14:28:10 --> Portfolio Request Body: {"name":"john doe"}
+ERROR - 2025-01-07 14:28:11 --> === ERROR DEBUG ===
+ERROR - 2025-01-07 14:28:11 --> Error Message: 22 : The requested URL returned error: 400
+ERROR - 2025-01-07 14:28:11 --> Error Trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\FeedController.php(112): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\FeedController->creatorProfile('2')
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FeedController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 14:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:29:31 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:29:31 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:29:32 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:29:32 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:29:32 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:29:32 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:29:32 --> Trying Portfolio Request URL 1: http://54.206.72.205/portfolio/findByCreator?creator_id=2
+DEBUG - 2025-01-07 14:29:33 --> Portfolio Request 1 failed: 22 : The requested URL returned error: 400
+DEBUG - 2025-01-07 14:29:33 --> Trying Portfolio Request URL 2: http://54.206.72.205/portfolio/findByCreator
+DEBUG - 2025-01-07 14:29:35 --> Portfolio Request 2 failed: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 14:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:30:59 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:30:59 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:30:59 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:30:59 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:30:59 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:30:59 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:30:59 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=john+doe
+DEBUG - 2025-01-07 14:30:59 --> Portfolio Response Status: 200
+DEBUG - 2025-01-07 14:30:59 --> Portfolio Response Body: {"message":"Portfolios retrieved successfully","data":[{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}],"search_term":"john doe"}
+DEBUG - 2025-01-07 14:30:59 --> Decoded Portfolio Data: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads\/portfolios\/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads\/portfolios\/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}]
+INFO - 2025-01-07 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:31:08 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:31:09 --> Response status: 200
+DEBUG - 2025-01-07 14:31:09 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:31:09 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:31:09 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:31:09 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:31:09 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:31:09 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:31:09 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:31:13 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:31:13 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:31:13 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:31:13 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:31:13 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:31:13 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:31:13 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=john+doe
+DEBUG - 2025-01-07 14:31:13 --> Portfolio Response Status: 200
+DEBUG - 2025-01-07 14:31:13 --> Portfolio Response Body: {"message":"Portfolios retrieved successfully","data":[{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}],"search_term":"john doe"}
+DEBUG - 2025-01-07 14:31:13 --> Decoded Portfolio Data: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads\/portfolios\/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads\/portfolios\/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}]
+INFO - 2025-01-07 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:32:10 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 14:32:10 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 14:32:10 --> Response Status Code: 200
+DEBUG - 2025-01-07 14:32:10 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:32:10 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 14:32:10 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 14:32:10 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=john+doe
+DEBUG - 2025-01-07 14:32:10 --> Portfolio Response Status: 200
+DEBUG - 2025-01-07 14:32:10 --> Portfolio Response Body: {"message":"Portfolios retrieved successfully","data":[{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}],"search_term":"john doe"}
+DEBUG - 2025-01-07 14:32:10 --> Decoded Portfolio Data: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads\/portfolios\/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads\/portfolios\/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"}]
+INFO - 2025-01-07 14:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:32:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:32:12 --> Response status: 200
+DEBUG - 2025-01-07 14:32:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:32:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:32:12 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:32:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:32:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:32:13 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:32:13 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 14:34:44 --> ErrorException: Cannot declare class App\Controllers\PortfolioController, because the name is already in use
+[Method: GET, Route: portfolio/create]
+in APPPATH\Views\portfolio\create.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-01-07 14:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:35:54 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:35:54 --> Response status: 200
+DEBUG - 2025-01-07 14:35:54 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:35:54 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:35:55 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:35:55 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:35:55 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:35:55 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:35:55 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:40:31 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:40:31 --> Request Method: POST
+DEBUG - 2025-01-07 14:40:31 --> POST Data: {"title":"Logo Design","description":"deskripsi","category":"logo"}
+DEBUG - 2025-01-07 14:40:31 --> File details: {"name":"images.jpg","type":"image\/jpeg","size":3040,"temp_name":"D:\\XAMPP\\tmp\\php5FD.tmp"}
+DEBUG - 2025-01-07 14:40:31 --> Request URL: http://54.206.72.205/portfolio/create
+DEBUG - 2025-01-07 14:40:31 --> Form Data: 
+ERROR - 2025-01-07 14:40:31 --> Portfolio create error: 22 : The requested URL returned error: 401
+INFO - 2025-01-07 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:40:40 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:40:40 --> Request Method: POST
+DEBUG - 2025-01-07 14:40:40 --> POST Data: {"title":"Logo Design","description":"deskripsi","category":"logo"}
+DEBUG - 2025-01-07 14:40:40 --> File details: {"name":"images.jpg","type":"image\/jpeg","size":3040,"temp_name":"D:\\XAMPP\\tmp\\php2A8E.tmp"}
+DEBUG - 2025-01-07 14:40:40 --> Request URL: http://54.206.72.205/portfolio/create
+DEBUG - 2025-01-07 14:40:40 --> Form Data: 
+ERROR - 2025-01-07 14:40:40 --> Portfolio create error: 22 : The requested URL returned error: 401
+INFO - 2025-01-07 14:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:42:15 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:42:15 --> User ID: 2
+DEBUG - 2025-01-07 14:42:15 --> User Role: creator
+DEBUG - 2025-01-07 14:42:15 --> File details: {"name":"images.jpg","type":"image\/jpeg","size":3040}
+ERROR - 2025-01-07 14:42:15 --> Portfolio create error: 22 : The requested URL returned error: 401
+INFO - 2025-01-07 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:42:24 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:42:24 --> User ID: 2
+DEBUG - 2025-01-07 14:42:24 --> User Role: creator
+DEBUG - 2025-01-07 14:42:24 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+ERROR - 2025-01-07 14:42:24 --> Portfolio create error: 22 : The requested URL returned error: 401
+INFO - 2025-01-07 14:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:44:21 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:44:21 --> User ID: 2
+DEBUG - 2025-01-07 14:44:21 --> User Role: creator
+DEBUG - 2025-01-07 14:44:21 --> File details: {"name":"images.jpg","type":"image\/jpeg","size":3040}
+DEBUG - 2025-01-07 14:44:21 --> Response Status: 401
+DEBUG - 2025-01-07 14:44:21 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:44:21 --> Portfolio create error: Failed to create portfolio. Status code: 401
+INFO - 2025-01-07 14:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:45:01 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:45:01 --> User ID: 2
+DEBUG - 2025-01-07 14:45:01 --> User Role: creator
+DEBUG - 2025-01-07 14:45:01 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:45:02 --> Response Status: 401
+DEBUG - 2025-01-07 14:45:02 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:45:02 --> Portfolio create error: Failed to create portfolio. Status code: 401
+INFO - 2025-01-07 14:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:46:18 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:46:18 --> User ID: 2
+DEBUG - 2025-01-07 14:46:18 --> User Role: creator
+DEBUG - 2025-01-07 14:46:18 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:46:18 --> Response Status: 401
+DEBUG - 2025-01-07 14:46:18 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:46:18 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:47:49 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:47:49 --> User ID: 2
+DEBUG - 2025-01-07 14:47:49 --> User Role: creator
+DEBUG - 2025-01-07 14:47:49 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:47:49 --> Request Headers: false
+DEBUG - 2025-01-07 14:47:49 --> Response Status: 401
+DEBUG - 2025-01-07 14:47:49 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:47:49 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:49:16 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:49:16 --> User ID: 2
+DEBUG - 2025-01-07 14:49:16 --> User Role: creator
+DEBUG - 2025-01-07 14:49:16 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:49:16 --> Cookie String: user_id=2; role=creator
+DEBUG - 2025-01-07 14:49:16 --> Response Status: 401
+DEBUG - 2025-01-07 14:49:16 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:49:16 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:50:44 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 14:50:45 --> Response status: 200
+DEBUG - 2025-01-07 14:50:45 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+DEBUG - 2025-01-07 14:50:45 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:50:45 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:50:45 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 14:50:45 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 14:50:45 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 14:50:45 --> findNameById response: {"name":"new creator"}
+INFO - 2025-01-07 14:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:53:09 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:53:09 --> User ID: 2
+DEBUG - 2025-01-07 14:53:09 --> User Role: creator
+DEBUG - 2025-01-07 14:53:09 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:53:10 --> Response Status: 401
+DEBUG - 2025-01-07 14:53:10 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:53:10 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:58:11 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:58:11 --> User ID: 2
+DEBUG - 2025-01-07 14:58:11 --> User Role: creator
+DEBUG - 2025-01-07 14:58:11 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:58:12 --> Response Status: 401
+DEBUG - 2025-01-07 14:58:12 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:58:12 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 14:58:31 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 14:58:31 --> User ID: 2
+DEBUG - 2025-01-07 14:58:31 --> User Role: creator
+DEBUG - 2025-01-07 14:58:31 --> File details: {"name":"image.png","type":"image\/png","size":81392}
+DEBUG - 2025-01-07 14:58:32 --> Response Status: 401
+DEBUG - 2025-01-07 14:58:32 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 14:58:32 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 14:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:00:39 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 15:00:39 --> Session Cookie: q5nrj7hnrpeda5e4ev1g1e4jvk8asgro
+DEBUG - 2025-01-07 15:00:39 --> User ID: 2
+DEBUG - 2025-01-07 15:00:39 --> User Role: creator
+DEBUG - 2025-01-07 15:00:39 --> Response Status: 401
+DEBUG - 2025-01-07 15:00:39 --> Response Body: {"status":401,"error":401,"messages":{"error":"Only creators can add portfolios."}}
+ERROR - 2025-01-07 15:00:39 --> Portfolio create error: Only creators can add portfolios.
+INFO - 2025-01-07 15:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-07 15:03:04 --> ErrorException: tempnam(): file created in the system's temporary directory
+[Method: POST, Route: login]
+in APPPATH\Controllers\AuthController.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'tempnam(): file created in the system\'s temporary directory', 'D:\\XAMPP\\htdocs\\DK-frontend\\app\\Controllers\\AuthController.php', 25)
+ 2 APPPATH\Controllers\AuthController.php(25): tempnam('/tmp', 'cookies')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-07 15:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:04:36 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-07 15:04:36 --> Response Headers: HTTP/1.1 200 OK
+Date: Tue, 07 Jan 2025 15:04:36 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d; expires=Tue, 07-Jan-2025 17:04:36 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-07 15:04:36 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-07 15:04:36 --> HTTP Code: 200
+DEBUG - 2025-01-07 15:04:36 --> Received Cookies: {"ci_session":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+INFO - 2025-01-07 15:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:04:36 --> Final Session Data: {"__ci_last_regenerate":1736262117,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+INFO - 2025-01-07 15:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:04:46 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 15:04:46 --> API Session ID: d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d
+DEBUG - 2025-01-07 15:04:46 --> User ID: 2
+DEBUG - 2025-01-07 15:04:46 --> User Role: creator
+DEBUG - 2025-01-07 15:04:47 --> Response Status: 201
+DEBUG - 2025-01-07 15:04:47 --> Response Body: {"message":"Portfolio created successfully!","data":{"creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":0}}
+DEBUG - 2025-01-07 15:04:47 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 15:04:47 --> Response status: 200
+DEBUG - 2025-01-07 15:04:47 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 15:04:47 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:04:47 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:04:47 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:04:47 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:04:47 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 15:04:48 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 15:04:48 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:04:48 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:10:57 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:10:57 --> User ID: 2
+DEBUG - 2025-01-07 15:10:57 --> Session Data: {"__ci_last_regenerate":1736262501,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:10:57 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:10:57 --> Creator Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:10:57 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=
+DEBUG - 2025-01-07 15:10:57 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:10:57 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:10:57 --> No portfolios found in view
+INFO - 2025-01-07 15:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:11:26 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:11:26 --> User ID: 2
+DEBUG - 2025-01-07 15:11:26 --> Session Data: {"__ci_last_regenerate":1736262501,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:11:26 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:11:27 --> Creator Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:11:27 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=
+DEBUG - 2025-01-07 15:11:27 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:11:27 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:11:27 --> No portfolios found in view
+INFO - 2025-01-07 15:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:14:31 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:14:31 --> User ID: 2
+DEBUG - 2025-01-07 15:14:31 --> Session Data: {"__ci_last_regenerate":1736262871,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:14:31 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:14:31 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 15:14:31 --> Name Response Status: 400
+DEBUG - 2025-01-07 15:14:31 --> Creator Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+ERROR - 2025-01-07 15:14:31 --> Failed to get creator name. Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:14:32 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator
+DEBUG - 2025-01-07 15:14:32 --> Portfolio Request Data: {"name":""}
+DEBUG - 2025-01-07 15:14:32 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:14:32 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:14:32 --> No portfolios found in view
+INFO - 2025-01-07 15:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:15:48 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:15:48 --> User ID: 2
+DEBUG - 2025-01-07 15:15:48 --> Session Data: {"__ci_last_regenerate":1736262871,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:15:48 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:15:48 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 15:15:48 --> Name Response Status: 400
+DEBUG - 2025-01-07 15:15:48 --> Raw Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:15:48 --> Decoded Name Data: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:15:48 --> Creator Name: null
+ERROR - 2025-01-07 15:15:48 --> Failed to get creator name. Response Code: 400
+DEBUG - 2025-01-07 15:15:48 --> Using fallback name (email): john@example.com
+DEBUG - 2025-01-07 15:15:49 --> Portfolio Request Data: {"name":"john@example.com"}
+DEBUG - 2025-01-07 15:15:49 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:15:49 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:15:49 --> No portfolios found in view
+INFO - 2025-01-07 15:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:16:55 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:16:55 --> User ID: 2
+DEBUG - 2025-01-07 15:16:55 --> Session Data: {"__ci_last_regenerate":1736262871,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:16:55 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:16:55 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 15:16:56 --> Name Response Status: 400
+DEBUG - 2025-01-07 15:16:56 --> Raw Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:16:56 --> Decoded Name Data: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:16:56 --> Creator Name: null
+ERROR - 2025-01-07 15:16:56 --> Failed to get creator name. Response Code: 400
+DEBUG - 2025-01-07 15:16:56 --> Using fallback name (email): john@example.com
+DEBUG - 2025-01-07 15:16:56 --> Portfolio Request Data: {"name":"john@example.com"}
+DEBUG - 2025-01-07 15:16:56 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:16:56 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:16:56 --> No portfolios found in view
+INFO - 2025-01-07 15:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:25:17 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:25:17 --> User ID: 2
+DEBUG - 2025-01-07 15:25:17 --> Session Data: {"__ci_last_regenerate":1736263517,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/creator\/dashboard","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:25:18 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:25:18 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 15:25:18 --> Name Response Status: 400
+DEBUG - 2025-01-07 15:25:18 --> Raw Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:25:18 --> Decoded Name Data: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:25:18 --> Creator Name: null
+ERROR - 2025-01-07 15:25:18 --> Failed to get creator name. Response Code: 400
+DEBUG - 2025-01-07 15:25:18 --> Using fallback name (email): john@example.com
+DEBUG - 2025-01-07 15:25:18 --> Portfolio Request Data: {"name":"john@example.com"}
+DEBUG - 2025-01-07 15:25:18 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:25:18 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:25:18 --> No portfolios found in view
+INFO - 2025-01-07 15:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:27:00 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 15:27:00 --> User ID: 2
+DEBUG - 2025-01-07 15:27:00 --> Session Data: {"__ci_last_regenerate":1736263517,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 15:27:00 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 15:27:00 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 15:27:00 --> Name Response Status: 400
+DEBUG - 2025-01-07 15:27:00 --> Raw Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:27:00 --> Decoded Name Data: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 15:27:00 --> Creator Name: null
+ERROR - 2025-01-07 15:27:00 --> Failed to get creator name. Response Code: 400
+DEBUG - 2025-01-07 15:27:00 --> Using fallback name (email): john@example.com
+DEBUG - 2025-01-07 15:27:01 --> Portfolio Request Data: {"name":"john@example.com"}
+DEBUG - 2025-01-07 15:27:01 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 15:27:01 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 15:27:01 --> No portfolios found in view
+INFO - 2025-01-07 15:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:27:05 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 15:27:05 --> Response status: 200
+DEBUG - 2025-01-07 15:27:05 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 15:27:05 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:05 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:27:05 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:05 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:27:05 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 15:27:06 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 15:27:06 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:06 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 15:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:27:10 --> === CREATOR PROFILE DEBUG ===
+DEBUG - 2025-01-07 15:27:10 --> Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 15:27:10 --> Response Status Code: 200
+DEBUG - 2025-01-07 15:27:10 --> Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 15:27:10 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 15:27:10 --> === PORTFOLIO DEBUG ===
+DEBUG - 2025-01-07 15:27:10 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator?name=john+doe
+DEBUG - 2025-01-07 15:27:10 --> Portfolio Response Status: 200
+DEBUG - 2025-01-07 15:27:10 --> Portfolio Response Body: {"message":"Portfolios retrieved successfully","data":[{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47","creator_name":"john doe"}],"search_term":"john doe"}
+DEBUG - 2025-01-07 15:27:10 --> Decoded Portfolio Data: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads\/portfolios\/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21","creator_name":"john doe"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads\/portfolios\/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32","creator_name":"john doe"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads\/portfolios\/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47","creator_name":"john doe"}]
+INFO - 2025-01-07 15:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 15:27:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 15:27:12 --> Response status: 200
+DEBUG - 2025-01-07 15:27:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 15:27:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:27:13 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 15:27:13 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 15:27:13 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 15:27:13 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 15:27:14 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 15:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 15:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 16:44:42 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 16:44:43 --> Response status: 200
+DEBUG - 2025-01-07 16:44:43 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 16:44:43 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:43 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 16:44:43 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:43 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 16:44:43 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 16:44:43 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 16:44:43 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:44 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 16:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 16:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 16:44:55 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 16:44:55 --> Response status: 200
+DEBUG - 2025-01-07 16:44:55 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 16:44:55 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:56 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 16:44:56 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:56 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 16:44:56 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 16:44:56 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 16:44:56 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 16:44:56 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 16:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:14:54 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 18:14:54 --> Response status: 200
+DEBUG - 2025-01-07 18:14:54 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+DEBUG - 2025-01-07 18:14:54 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 18:14:54 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 18:14:54 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 18:14:54 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 18:14:54 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 18:14:55 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 18:14:55 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 18:14:55 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 18:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 18:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 18:15:05 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 18:15:05 --> User ID: 2
+DEBUG - 2025-01-07 18:15:05 --> Session Data: {"__ci_last_regenerate":1736273695,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+DEBUG - 2025-01-07 18:15:06 --> Projects Response: {"status":404,"error":404,"messages":{"error":"No projects found for the given user."}}
+DEBUG - 2025-01-07 18:15:06 --> Name Request URL: http://54.206.72.205/users/findNameById?Id=2
+DEBUG - 2025-01-07 18:15:06 --> Name Response Status: 400
+DEBUG - 2025-01-07 18:15:06 --> Raw Name Response: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 18:15:06 --> Decoded Name Data: {"status":400,"error":400,"messages":{"error":"ID is required"}}
+DEBUG - 2025-01-07 18:15:06 --> Creator Name: null
+ERROR - 2025-01-07 18:15:06 --> Failed to get creator name. Response Code: 400
+DEBUG - 2025-01-07 18:15:06 --> Using fallback name (email): john@example.com
+DEBUG - 2025-01-07 18:15:06 --> Portfolio Request Data: {"name":"john@example.com"}
+DEBUG - 2025-01-07 18:15:06 --> Portfolio Response Status: 400
+DEBUG - 2025-01-07 18:15:06 --> Portfolio Response: {"status":400,"error":400,"messages":{"error":"Creator name is required for search"}}
+DEBUG - 2025-01-07 18:15:06 --> No portfolios found in view
+INFO - 2025-01-07 18:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:05:32 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:05:32 --> User ID: 2
+DEBUG - 2025-01-07 19:05:32 --> User Name from Session: Not set
+DEBUG - 2025-01-07 19:05:32 --> Session Data: {"__ci_last_regenerate":1736276728,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"d3daf901b2ceae639ce9a1ecc9af6d6b8260f74d"}
+ERROR - 2025-01-07 19:05:32 --> Dashboard error: Undefined property: App\Controllers\DashboardController::$client
+ERROR - 2025-01-07 19:05:32 --> Error trace: #0 D:\XAMPP\htdocs\DK-frontend\app\Controllers\DashboardController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 49)
+#1 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+#2 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#5 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#6 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2025-01-07 19:05:32 --> ErrorException: Undefined variable $debug
+[Method: GET, Route: creator/dashboard]
+in APPPATH\Views\dashboard\creator.php on line 64.
+ 1 APPPATH\Views\dashboard\creator.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debug', 'D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/creator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(111): view('dashboard/creator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-07 19:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:07:02 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:07:02 --> User ID: 2
+DEBUG - 2025-01-07 19:07:02 --> User Email: john@example.com
+ERROR - 2025-01-07 19:07:02 --> Dashboard error: Undefined property: App\Controllers\DashboardController::$client
+INFO - 2025-01-07 19:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:07:09 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-07 19:07:09 --> Response Headers: HTTP/1.1 200 OK
+Date: Tue, 07 Jan 2025 19:07:12 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=9c11cd7ad08dc029a950b64ddb059c141a23df37; expires=Tue, 07-Jan-2025 21:07:13 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-07 19:07:09 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-07 19:07:09 --> HTTP Code: 200
+DEBUG - 2025-01-07 19:07:09 --> Received Cookies: {"ci_session":"9c11cd7ad08dc029a950b64ddb059c141a23df37"}
+INFO - 2025-01-07 19:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:07:09 --> Final Session Data: {"__ci_last_regenerate":1736276827,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"9c11cd7ad08dc029a950b64ddb059c141a23df37"}
+INFO - 2025-01-07 19:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:07:09 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:07:09 --> User ID: 2
+DEBUG - 2025-01-07 19:07:09 --> User Email: john@example.com
+ERROR - 2025-01-07 19:07:09 --> Dashboard error: Undefined property: App\Controllers\DashboardController::$client
+INFO - 2025-01-07 19:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:07:47 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:07:47 --> User ID: 2
+DEBUG - 2025-01-07 19:07:47 --> User Email: john@example.com
+ERROR - 2025-01-07 19:07:47 --> Dashboard error: Undefined property: App\Controllers\DashboardController::$client
+INFO - 2025-01-07 19:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:16:52 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:16:52 --> User ID: 2
+DEBUG - 2025-01-07 19:16:52 --> User Email: john@example.com
+DEBUG - 2025-01-07 19:16:52 --> API Session ID: 9c11cd7ad08dc029a950b64ddb059c141a23df37
+ERROR - 2025-01-07 19:16:52 --> Dashboard error: 22 : The requested URL returned error: 404
+ERROR - 2025-01-07 19:16:52 --> Stack trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\DashboardController.php(52): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 19:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:17:06 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:17:06 --> User ID: 2
+DEBUG - 2025-01-07 19:17:06 --> User Email: john@example.com
+DEBUG - 2025-01-07 19:17:06 --> API Session ID: 9c11cd7ad08dc029a950b64ddb059c141a23df37
+ERROR - 2025-01-07 19:17:06 --> Dashboard error: 22 : The requested URL returned error: 404
+ERROR - 2025-01-07 19:17:06 --> Stack trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\DashboardController.php(52): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 19:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:18:22 --> === DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:18:22 --> User ID: 2
+DEBUG - 2025-01-07 19:18:22 --> User Email: john@example.com
+DEBUG - 2025-01-07 19:18:22 --> API Session ID: 9c11cd7ad08dc029a950b64ddb059c141a23df37
+DEBUG - 2025-01-07 19:18:22 --> Base URL: http://54.206.72.205
+DEBUG - 2025-01-07 19:18:22 --> Project Request URL: http://54.206.72.205/project/findByUser
+ERROR - 2025-01-07 19:18:22 --> Project request failed: 22 : The requested URL returned error: 404
+DEBUG - 2025-01-07 19:18:22 --> Using creator name: john
+DEBUG - 2025-01-07 19:18:22 --> Portfolio Request URL: http://54.206.72.205/portfolio/findByCreator
+DEBUG - 2025-01-07 19:18:22 --> Portfolio Request Data: {"name":"john"}
+ERROR - 2025-01-07 19:18:22 --> Portfolio request failed: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 19:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:20:37 --> === CREATOR DASHBOARD DEBUG ===
+DEBUG - 2025-01-07 19:20:37 --> User Request URL: http://54.206.72.205/users/findById?id=2
+DEBUG - 2025-01-07 19:20:37 --> User Response Status Code: 200
+DEBUG - 2025-01-07 19:20:37 --> User Response Body: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 19:20:37 --> Decoded Creator Data: {"id":"2","name":"john doe","email":"john@example.com","password":"$2y$10$ll8q9chKKhMZoY0q0S6vXOg96rZQPfNZeC6uzyuyLFd5MLrml4kLm","role":"creator"}
+DEBUG - 2025-01-07 19:20:37 --> Project Request URL: http://54.206.72.205/project/findByUser
+ERROR - 2025-01-07 19:20:38 --> === ERROR DEBUG ===
+ERROR - 2025-01-07 19:20:38 --> Error Message: 22 : The requested URL returned error: 401
+ERROR - 2025-01-07 19:20:38 --> Error Trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\DashboardController.php(61): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 19:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:23:28 --> Project Request URL: http://54.206.72.205/project/findByUser
+ERROR - 2025-01-07 19:23:28 --> === ERROR DEBUG ===
+ERROR - 2025-01-07 19:23:28 --> Error Message: 22 : The requested URL returned error: 401
+ERROR - 2025-01-07 19:23:28 --> Error Trace: #0 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(694): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://54.206.7...')
+#3 D:\XAMPP\htdocs\DK-frontend\system\HTTP\CURLRequest.php(227): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://54.206.7...', Array)
+#4 D:\XAMPP\htdocs\DK-frontend\app\Controllers\DashboardController.php(45): CodeIgniter\HTTP\CURLRequest->post('http://54.206.7...', Array)
+#5 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+#6 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 D:\XAMPP\htdocs\DK-frontend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\XAMPP\htdocs\DK-frontend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\XAMPP\htdocs\DK-frontend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\XAMPP\htdocs\DK-frontend\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#12 {main}
+INFO - 2025-01-07 19:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:24:33 --> Dashboard error: 22 : The requested URL returned error: 404
+INFO - 2025-01-07 19:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:25:36 --> Dashboard error: 22 : The requested URL returned error: 404
+INFO - 2025-01-07 19:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:25:50 --> Dashboard error: 22 : The requested URL returned error: 404
+INFO - 2025-01-07 19:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:27:22 --> Dashboard error: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 19:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:29:27 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:29:28 --> Response status: 200
+DEBUG - 2025-01-07 19:29:28 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+INFO - 2025-01-07 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:29:35 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:29:35 --> Response status: 200
+DEBUG - 2025-01-07 19:29:35 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"2","creator_id":"2","title":"video","description":"deskripsi video","category":"video","file_path":"uploads/portfolios/1736258252_d06e754f7b2c26ab17a4.png","likes":"0","created_at":"2025-01-07 13:57:32","updated_at":"2025-01-07 13:57:32"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+INFO - 2025-01-07 19:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:33:06 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:33:06 --> Response status: 200
+DEBUG - 2025-01-07 19:33:06 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+INFO - 2025-01-07 19:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:34:40 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:34:40 --> Response status: 200
+DEBUG - 2025-01-07 19:34:40 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"4","creator_id":"2","title":"Logo Design","description":"gfsad","category":"logo","file_path":"uploads/portfolios/1736262287_75672c41b025bec1dcd1.png","likes":"0","created_at":"2025-01-07 15:04:47","updated_at":"2025-01-07 15:04:47"}]
+INFO - 2025-01-07 19:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:34:46 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:34:46 --> Response status: 200
+DEBUG - 2025-01-07 19:34:46 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+INFO - 2025-01-07 19:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:35:55 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:35:55 --> Response status: 200
+DEBUG - 2025-01-07 19:35:55 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+INFO - 2025-01-07 19:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:36:06 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:36:06 --> Response status: 200
+DEBUG - 2025-01-07 19:36:06 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"}]
+INFO - 2025-01-07 19:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:38:19 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 19:38:19 --> API Session ID: 9c11cd7ad08dc029a950b64ddb059c141a23df37
+DEBUG - 2025-01-07 19:38:19 --> User ID: 2
+DEBUG - 2025-01-07 19:38:19 --> User Role: creator
+DEBUG - 2025-01-07 19:38:20 --> Response Status: 201
+DEBUG - 2025-01-07 19:38:20 --> Response Body: {"message":"Portfolio created successfully!","data":{"creator_id":"2","title":"video","description":"videooooo","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":0}}
+DEBUG - 2025-01-07 19:38:20 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:38:20 --> Response status: 200
+DEBUG - 2025-01-07 19:38:20 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"videooooo","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:38:23"}]
+DEBUG - 2025-01-07 19:38:20 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:38:20 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 19:38:20 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 19:38:20 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 19:38:20 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:38:21 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 19:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:38:31 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:38:31 --> Response status: 200
+DEBUG - 2025-01-07 19:38:31 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"videooooo","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:38:23"}]
+INFO - 2025-01-07 19:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:39:47 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:39:47 --> Response status: 200
+DEBUG - 2025-01-07 19:39:47 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"videooooo","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:38:23"}]
+INFO - 2025-01-07 19:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:39:54 --> Update portfolio error: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 19:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-07 19:40:00 --> Update portfolio error: 22 : The requested URL returned error: 400
+INFO - 2025-01-07 19:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:43:09 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:43:10 --> Response status: 200
+DEBUG - 2025-01-07 19:43:10 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:40:37"}]
+INFO - 2025-01-07 19:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:43:14 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:43:14 --> Response status: 200
+DEBUG - 2025-01-07 19:43:14 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"}]
+INFO - 2025-01-07 19:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:43:24 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:43:24 --> Response status: 200
+DEBUG - 2025-01-07 19:43:24 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"}]
+INFO - 2025-01-07 19:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:44:42 --> === PORTFOLIO CREATE DEBUG ===
+DEBUG - 2025-01-07 19:44:42 --> API Session ID: 9c11cd7ad08dc029a950b64ddb059c141a23df37
+DEBUG - 2025-01-07 19:44:42 --> User ID: 2
+DEBUG - 2025-01-07 19:44:42 --> User Role: creator
+DEBUG - 2025-01-07 19:44:43 --> Response Status: 201
+DEBUG - 2025-01-07 19:44:43 --> Response Body: {"message":"Portfolio created successfully!","data":{"creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":0}}
+INFO - 2025-01-07 19:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:44:43 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:44:43 --> Response status: 200
+DEBUG - 2025-01-07 19:44:43 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-07 19:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:45:02 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-07 19:45:02 --> Response Headers: HTTP/1.1 200 OK
+Date: Tue, 07 Jan 2025 19:45:05 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=23d6639f8eeb553131cd8d5786b4164b97e73ebb; expires=Tue, 07-Jan-2025 21:45:05 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 91
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-07 19:45:02 --> Response Body: {"message":"Login successful","user":{"id":"3","email":"jane@example.com","role":"client"}}
+DEBUG - 2025-01-07 19:45:02 --> HTTP Code: 200
+DEBUG - 2025-01-07 19:45:02 --> Received Cookies: {"ci_session":"23d6639f8eeb553131cd8d5786b4164b97e73ebb"}
+INFO - 2025-01-07 19:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:45:02 --> Final Session Data: {"__ci_last_regenerate":1736279096,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"3","email":"jane@example.com","role":"client","logged_in":true,"api_session_id":"23d6639f8eeb553131cd8d5786b4164b97e73ebb"}
+INFO - 2025-01-07 19:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:47:47 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:47:48 --> Response status: 200
+DEBUG - 2025-01-07 19:47:48 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-07 19:47:48 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:47:48 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 19:47:48 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 19:47:48 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 19:47:48 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:47:48 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 19:47:49 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:47:49 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 19:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-07 19:49:52 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-07 19:49:52 --> Response status: 200
+DEBUG - 2025-01-07 19:49:52 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-07 19:49:52 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:49:53 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 19:49:53 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-07 19:49:53 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-07 19:49:53 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:49:53 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-07 19:49:53 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-07 19:49:53 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-07 19:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-07 19:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
