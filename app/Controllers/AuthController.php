@@ -126,6 +126,10 @@ class AuthController extends BaseController
 
     public function register()
     {
+        if (session()->get('logged_in')) {
+            return redirect()->to(base_url());
+        }
+
         if ($this->request->getMethod() === 'POST') {
             $userData = [
                 'name' => $this->request->getPost('name'),

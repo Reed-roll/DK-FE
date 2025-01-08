@@ -1,0 +1,611 @@
+INFO - 2025-01-08 10:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:32:45 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:32:45 --> Response status: 200
+DEBUG - 2025-01-08 10:32:45 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:32:45 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:46 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:46 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:32:46 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:32:46 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:46 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:46 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:46 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:32:47 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:32:47 --> Response status: 200
+DEBUG - 2025-01-08 10:32:47 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:32:47 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:47 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:47 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:32:48 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:32:48 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:48 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:48 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:48 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:32:49 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:32:49 --> Response status: 200
+DEBUG - 2025-01-08 10:32:49 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:32:49 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:49 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:49 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:32:50 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:32:50 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:50 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:50 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:50 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:32:50 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:32:50 --> Response status: 200
+DEBUG - 2025-01-08 10:32:50 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:32:50 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:51 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:51 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:32:51 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:32:51 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:51 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:32:51 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:32:53 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:33:04 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 10:33:04 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 10:33:08 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=b115e14958ff873e84a2d41c4046d88512464af1; expires=Wed, 08-Jan-2025 12:33:08 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 10:33:04 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-08 10:33:04 --> HTTP Code: 200
+DEBUG - 2025-01-08 10:33:04 --> Received Cookies: {"ci_session":"b115e14958ff873e84a2d41c4046d88512464af1"}
+INFO - 2025-01-08 10:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:33:04 --> Final Session Data: {"__ci_last_regenerate":1736332373,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"b115e14958ff873e84a2d41c4046d88512464af1"}
+INFO - 2025-01-08 10:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:33:04 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:33:05 --> Response status: 200
+DEBUG - 2025-01-08 10:33:05 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 10:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:33:15 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:33:16 --> Response status: 200
+DEBUG - 2025-01-08 10:33:16 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:33:16 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:16 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:33:16 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:33:16 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:33:16 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:17 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:33:17 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:17 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:33:17 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:33:18 --> Response status: 200
+DEBUG - 2025-01-08 10:33:18 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:33:18 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:18 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:33:18 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:33:18 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:33:18 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:18 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:33:18 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:33:19 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:35:02 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:35:03 --> Response status: 200
+DEBUG - 2025-01-08 10:35:03 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:35:03 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:35:03 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:35:03 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:35:04 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:35:04 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:35:04 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:35:04 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:35:05 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:44:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:44:12 --> Response status: 200
+DEBUG - 2025-01-08 10:44:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 10:44:12 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:44:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:44:13 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 10:44:13 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 10:44:13 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:44:13 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 10:44:13 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 10:44:14 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 10:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:45:12 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 10:45:12 --> Response status: 200
+DEBUG - 2025-01-08 10:45:12 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 10:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 10:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:45:24 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 10:45:24 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 10:45:27 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=0f082f7af0feb217ac6c42d80e0cec5b10183029; expires=Wed, 08-Jan-2025 12:45:27 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 91
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 10:45:24 --> Response Body: {"message":"Login successful","user":{"id":"3","email":"jane@example.com","role":"client"}}
+DEBUG - 2025-01-08 10:45:24 --> HTTP Code: 200
+DEBUG - 2025-01-08 10:45:24 --> Received Cookies: {"ci_session":"0f082f7af0feb217ac6c42d80e0cec5b10183029"}
+INFO - 2025-01-08 10:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 10:45:24 --> Final Session Data: {"__ci_last_regenerate":1736333116,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"3","email":"jane@example.com","role":"client","logged_in":true,"api_session_id":"0f082f7af0feb217ac6c42d80e0cec5b10183029"}
+INFO - 2025-01-08 10:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:15:48 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 11:15:48 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 11:15:52 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=b0336edaba98f148ca5b8e6607a2207562be08d7; expires=Wed, 08-Jan-2025 13:15:52 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 11:15:48 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-08 11:15:48 --> HTTP Code: 200
+DEBUG - 2025-01-08 11:15:48 --> Received Cookies: {"ci_session":"b0336edaba98f148ca5b8e6607a2207562be08d7"}
+INFO - 2025-01-08 11:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:15:48 --> Final Session Data: {"__ci_last_regenerate":1736334941,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"b0336edaba98f148ca5b8e6607a2207562be08d7"}
+INFO - 2025-01-08 11:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:15:48 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:15:49 --> Response status: 200
+DEBUG - 2025-01-08 11:15:49 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 11:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:41:14 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:41:14 --> Response status: 200
+DEBUG - 2025-01-08 11:41:14 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 11:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:42:24 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:42:25 --> Response status: 200
+DEBUG - 2025-01-08 11:42:25 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 11:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:42:32 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:42:32 --> Response status: 200
+DEBUG - 2025-01-08 11:42:32 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:42:59 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 11:42:59 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 11:43:02 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=03d582c7f5e54155ef83b46ee984d244788a75d7; expires=Wed, 08-Jan-2025 13:43:03 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 91
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 11:42:59 --> Response Body: {"message":"Login successful","user":{"id":"3","email":"jane@example.com","role":"client"}}
+DEBUG - 2025-01-08 11:42:59 --> HTTP Code: 200
+DEBUG - 2025-01-08 11:42:59 --> Received Cookies: {"ci_session":"03d582c7f5e54155ef83b46ee984d244788a75d7"}
+INFO - 2025-01-08 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:42:59 --> Final Session Data: {"__ci_last_regenerate":1736336573,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"3","email":"jane@example.com","role":"client","logged_in":true,"api_session_id":"03d582c7f5e54155ef83b46ee984d244788a75d7"}
+INFO - 2025-01-08 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 11:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:43:15 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 11:43:15 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 11:43:18 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=3637fefea446cfccb03c764e2eab51116c56c226; expires=Wed, 08-Jan-2025 13:43:18 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 11:43:15 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-08 11:43:15 --> HTTP Code: 200
+DEBUG - 2025-01-08 11:43:15 --> Received Cookies: {"ci_session":"3637fefea446cfccb03c764e2eab51116c56c226"}
+INFO - 2025-01-08 11:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:43:15 --> Final Session Data: {"__ci_last_regenerate":1736336592,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"3637fefea446cfccb03c764e2eab51116c56c226"}
+INFO - 2025-01-08 11:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:43:15 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:43:15 --> Response status: 200
+DEBUG - 2025-01-08 11:43:15 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+INFO - 2025-01-08 11:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:46:39 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:46:39 --> Response status: 200
+DEBUG - 2025-01-08 11:46:39 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:46:39 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+ERROR - 2025-01-08 11:46:40 --> [Project] Fetch error: 22 : The requested URL returned error: 401
+INFO - 2025-01-08 11:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:47:28 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:47:28 --> Response status: 200
+DEBUG - 2025-01-08 11:47:28 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:47:28 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 11:47:28 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 11:47:29 --> [Project] Response status: 200
+DEBUG - 2025-01-08 11:47:29 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 11:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:50:51 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:50:52 --> Response status: 200
+DEBUG - 2025-01-08 11:50:52 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:50:52 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 11:50:52 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 11:50:52 --> [Project] Response status: 200
+DEBUG - 2025-01-08 11:50:52 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 11:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:51:22 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:51:22 --> Response status: 200
+DEBUG - 2025-01-08 11:51:22 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:51:22 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 11:51:22 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 11:51:22 --> [Project] Response status: 200
+DEBUG - 2025-01-08 11:51:22 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 11:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:54:23 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:54:23 --> Response status: 200
+DEBUG - 2025-01-08 11:54:23 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:54:23 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 11:54:23 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 11:54:23 --> [Project] Response status: 200
+DEBUG - 2025-01-08 11:54:23 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 11:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 11:54:44 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 11:54:45 --> Response status: 200
+DEBUG - 2025-01-08 11:54:45 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 11:54:45 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 11:54:45 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 11:54:45 --> [Project] Response status: 200
+DEBUG - 2025-01-08 11:54:45 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:35:33 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:35:33 --> Response status: 200
+DEBUG - 2025-01-08 12:35:33 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:35:33 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:35:33 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 12:35:34 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:35:34 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:47:36 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:47:36 --> Response status: 200
+DEBUG - 2025-01-08 12:47:36 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:47:36 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:47:36 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 12:47:37 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:47:37 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:47:40 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:47:41 --> Response status: 200
+DEBUG - 2025-01-08 12:47:41 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:47:41 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:47:41 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 12:47:41 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:47:41 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:47:59 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:47:59 --> Response status: 200
+DEBUG - 2025-01-08 12:47:59 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:47:59 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:47:59 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 12:47:59 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:47:59 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:48:10 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:48:11 --> Response status: 200
+DEBUG - 2025-01-08 12:48:11 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:48:11 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:48:11 --> [Project] Session ID: 3637fefea446cfccb03c764e2eab51116c56c226
+DEBUG - 2025-01-08 12:48:11 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:48:11 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:48:14 --> === LOGIN DEBUG ===
+DEBUG - 2025-01-08 12:48:14 --> Response Headers: HTTP/1.1 200 OK
+Date: Wed, 08 Jan 2025 12:48:18 GMT
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.1.31
+Set-Cookie: ci_session=fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4; expires=Wed, 08-Jan-2025 14:48:18 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 92
+Content-Type: application/json; charset=UTF-8
+
+
+DEBUG - 2025-01-08 12:48:14 --> Response Body: {"message":"Login successful","user":{"id":"2","email":"john@example.com","role":"creator"}}
+DEBUG - 2025-01-08 12:48:14 --> HTTP Code: 200
+DEBUG - 2025-01-08 12:48:14 --> Received Cookies: {"ci_session":"fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4"}
+INFO - 2025-01-08 12:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:48:14 --> Final Session Data: {"__ci_last_regenerate":1736340456,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/login","user_id":"2","email":"john@example.com","role":"creator","logged_in":true,"api_session_id":"fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4"}
+INFO - 2025-01-08 12:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:48:14 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:48:15 --> Response status: 200
+DEBUG - 2025-01-08 12:48:15 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:48:15 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:48:15 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:48:15 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:48:15 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:48:21 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:48:21 --> Response status: 200
+DEBUG - 2025-01-08 12:48:21 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:48:21 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:48:21 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 12:48:21 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 12:48:21 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 12:48:21 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:48:22 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 12:48:22 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:48:22 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:51:39 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:51:40 --> Response status: 200
+DEBUG - 2025-01-08 12:51:40 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:51:40 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:51:40 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 12:51:40 --> Fetching name for creator ID: 4
+DEBUG - 2025-01-08 12:51:40 --> findNameById response: {"name":"new creator"}
+DEBUG - 2025-01-08 12:51:40 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:51:41 --> findNameById response: {"name":"john doe"}
+DEBUG - 2025-01-08 12:51:41 --> Fetching name for creator ID: 2
+DEBUG - 2025-01-08 12:51:41 --> findNameById response: {"name":"john doe"}
+INFO - 2025-01-08 12:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:51:46 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:51:46 --> Response status: 200
+DEBUG - 2025-01-08 12:51:46 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:51:46 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:51:46 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:51:47 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:51:47 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:51:56 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:51:57 --> Response status: 200
+DEBUG - 2025-01-08 12:51:57 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:51:57 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:51:57 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:51:57 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:51:57 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:52:04 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:52:04 --> Response status: 200
+DEBUG - 2025-01-08 12:52:04 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:52:04 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:52:04 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:52:05 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:52:05 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:57:04 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:57:04 --> Response status: 200
+DEBUG - 2025-01-08 12:57:04 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:57:04 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:57:04 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:57:04 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:57:04 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:57:06 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:57:07 --> Response status: 200
+DEBUG - 2025-01-08 12:57:07 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:57:07 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:57:07 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:57:07 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:57:07 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 12:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:57:11 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:57:11 --> Response status: 200
+DEBUG - 2025-01-08 12:57:11 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:57:11 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:57:11 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:57:11 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:57:11 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 12:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 12:59:38 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 12:59:38 --> Response status: 200
+DEBUG - 2025-01-08 12:59:38 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 12:59:38 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 12:59:38 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 12:59:38 --> [Project] Response status: 200
+DEBUG - 2025-01-08 12:59:38 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 13:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:08:25 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:08:25 --> Response status: 200
+DEBUG - 2025-01-08 13:08:25 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:08:25 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:08:25 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:08:25 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:08:25 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"pending","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 11:42:26"}]}
+INFO - 2025-01-08 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:08:31 --> [Project Update] Making request to: http://54.206.72.205/project/update
+DEBUG - 2025-01-08 13:08:31 --> [Project Update] Response status: 200
+DEBUG - 2025-01-08 13:08:31 --> [Project Update] Response body: {"message":"Project updated successfully!","data":{"title":"project1","description":"description of project1","category":"video","status":"review","deadline":"2025-01-01","updated_at":"2025-01-08 13:08:35"}}
+INFO - 2025-01-08 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:08:31 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:08:32 --> Response status: 200
+DEBUG - 2025-01-08 13:08:32 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:08:32 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:08:32 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:08:32 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:08:32 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"2","creator_id":"2","client_id":"3","title":"project1","description":"description of project1","category":"video","status":"review","deadline":"2025-01-01","created_at":"2025-01-08 11:42:26","updated_at":"2025-01-08 13:08:35"}]}
+INFO - 2025-01-08 13:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:08:35 --> [Project Delete] Making request to: http://54.206.72.205/project/delete
+DEBUG - 2025-01-08 13:08:36 --> [Project Delete] Response status: 200
+DEBUG - 2025-01-08 13:08:36 --> [Project Delete] Response body: {"message":"Project deleted successfully!"}
+INFO - 2025-01-08 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:08:36 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:08:36 --> Response status: 200
+DEBUG - 2025-01-08 13:08:36 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:08:36 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:08:36 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+ERROR - 2025-01-08 13:08:36 --> [Project] Fetch error: 22 : The requested URL returned error: 404
+WARNING - 2025-01-08 13:08:36 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\dashboard\creator.php on line 159.
+ 1 APPPATH\Views\dashboard\creator.php(159): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/creator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(65): view('dashboard/creator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-08 13:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:19:53 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:19:53 --> Response status: 200
+DEBUG - 2025-01-08 13:19:53 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:19:53 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:19:53 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+ERROR - 2025-01-08 13:19:54 --> [Project] Fetch error: 22 : The requested URL returned error: 404
+WARNING - 2025-01-08 13:19:54 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\dashboard\creator.php on line 221.
+ 1 APPPATH\Views\dashboard\creator.php(221): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/creator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(65): view('dashboard/creator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-08 13:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:20:29 --> [Project Create] Making request to: http://54.206.72.205/project/create
+DEBUG - 2025-01-08 13:20:30 --> [Project Create] Response status: 201
+DEBUG - 2025-01-08 13:20:30 --> [Project Create] Response body: {"message":"Project created successfully!","data":{"creator_id":"2","client_id":"3","title":"project 1","description":"afeaaef","category":"desain logo","status":"pending","deadline":"2025-01-09"}}
+INFO - 2025-01-08 13:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:20:30 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:20:30 --> Response status: 200
+DEBUG - 2025-01-08 13:20:30 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:20:30 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:20:30 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:20:30 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:20:30 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"3","creator_id":"2","client_id":"3","title":"project 1","description":"afeaaef","category":"desain logo","status":"pending","deadline":"2025-01-09","created_at":"2025-01-08 13:20:34","updated_at":"2025-01-08 13:20:34"}]}
+INFO - 2025-01-08 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:08 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:27:09 --> Response status: 200
+DEBUG - 2025-01-08 13:27:09 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:27:09 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:27:09 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:27:09 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:27:09 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"3","creator_id":"2","client_id":"3","title":"project 1","description":"afeaaef","category":"desain logo","status":"pending","deadline":"2025-01-09","created_at":"2025-01-08 13:20:34","updated_at":"2025-01-08 13:20:34"}]}
+INFO - 2025-01-08 13:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:18 --> [Project Update] Making request to: http://54.206.72.205/project/update
+DEBUG - 2025-01-08 13:27:18 --> [Project Update] Response status: 200
+DEBUG - 2025-01-08 13:27:18 --> [Project Update] Response body: {"message":"Project updated successfully!","data":{"title":"project 1","description":"afeaaef","category":"desain logo","status":"process","deadline":"2025-01-09","updated_at":"2025-01-08 13:27:22"}}
+INFO - 2025-01-08 13:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:18 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:27:18 --> Response status: 200
+DEBUG - 2025-01-08 13:27:18 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:27:18 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:27:18 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:27:19 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:27:19 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"3","creator_id":"2","client_id":"3","title":"project 1","description":"afeaaef","category":"desain logo","status":"process","deadline":"2025-01-09","created_at":"2025-01-08 13:20:34","updated_at":"2025-01-08 13:27:22"}]}
+INFO - 2025-01-08 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:23 --> [Project Delete] Making request to: http://54.206.72.205/project/delete
+DEBUG - 2025-01-08 13:27:23 --> [Project Delete] Response status: 200
+DEBUG - 2025-01-08 13:27:23 --> [Project Delete] Response body: {"message":"Project deleted successfully!"}
+INFO - 2025-01-08 13:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:23 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:27:23 --> Response status: 200
+DEBUG - 2025-01-08 13:27:23 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update12","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-07 19:43:17"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:27:23 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:27:23 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+ERROR - 2025-01-08 13:27:24 --> [Project] Fetch error: 22 : The requested URL returned error: 404
+WARNING - 2025-01-08 13:27:24 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\dashboard\creator.php on line 224.
+ 1 APPPATH\Views\dashboard\creator.php(224): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/creator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(65): view('dashboard/creator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-08 13:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 13:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:29 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:27:29 --> Response status: 200
+DEBUG - 2025-01-08 13:27:29 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-08 13:27:33"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:27:29 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:27:29 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+ERROR - 2025-01-08 13:27:30 --> [Project] Fetch error: 22 : The requested URL returned error: 404
+WARNING - 2025-01-08 13:27:30 --> [DEPRECATED] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in APPPATH\Views\dashboard\creator.php on line 224.
+ 1 APPPATH\Views\dashboard\creator.php(224): json_decode(null, true)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\XAMPP\\htdocs\\DK-frontend\\app\\Views\\dashboard\\creator.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/creator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(65): view('dashboard/creator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->creatorDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\DK-frontend\\public\\index.php')
+INFO - 2025-01-08 13:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:45 --> [Project Create] Making request to: http://54.206.72.205/project/create
+DEBUG - 2025-01-08 13:27:46 --> [Project Create] Response status: 201
+DEBUG - 2025-01-08 13:27:46 --> [Project Create] Response body: {"message":"Project created successfully!","data":{"creator_id":"2","client_id":"","title":"projectttt","description":"deskripsi","category":"desain logo","status":"pending","deadline":"2025-01-09"}}
+INFO - 2025-01-08 13:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-08 13:27:46 --> Making request to: http://54.206.72.205/portfolio/findAll
+DEBUG - 2025-01-08 13:27:46 --> Response status: 200
+DEBUG - 2025-01-08 13:27:46 --> Response body: [{"id":"1","creator_id":"2","title":"gambar 1","description":"deskripsi gambar 1","category":"gambar 1","file_path":"uploads/portfolios/1736243061_9fbc5331d9ddd9e00456.png","likes":"0","created_at":"2025-01-07 09:44:21","updated_at":"2025-01-07 09:44:21"},{"id":"3","creator_id":"4","title":"video 2","description":"deskripsi video 2","category":"video","file_path":"uploads/portfolios/1736258318_899f043046782dd0e35a.png","likes":"0","created_at":"2025-01-07 13:58:38","updated_at":"2025-01-07 13:58:38"},{"id":"5","creator_id":"2","title":"video","description":"description update","category":"video","file_path":"uploads/portfolios/1736278703_5694fb4f45f2e748b65e.jpg","likes":"0","created_at":"2025-01-07 19:38:23","updated_at":"2025-01-08 13:27:33"},{"id":"6","creator_id":"2","title":"Logo Design","description":"dadawdawda","category":"logo","file_path":"uploads/portfolios/1736279086_91e8c17058e5ebf216d1.jpg","likes":"0","created_at":"2025-01-07 19:44:46","updated_at":"2025-01-07 19:44:46"}]
+DEBUG - 2025-01-08 13:27:46 --> [Project] Making request to: http://54.206.72.205/project/findByUser
+DEBUG - 2025-01-08 13:27:46 --> [Project] Session ID: fc5c10f0b8e9e0acd90537558ec4e17d085a5aa4
+DEBUG - 2025-01-08 13:27:46 --> [Project] Response status: 200
+DEBUG - 2025-01-08 13:27:46 --> [Project] Response body: {"message":"Projects retrieved successfully!","data":[{"id":"4","creator_id":"2","client_id":"0","title":"projectttt","description":"deskripsi","category":"desain logo","status":"pending","deadline":"2025-01-09","created_at":"2025-01-08 13:27:50","updated_at":"2025-01-08 13:27:50"}]}

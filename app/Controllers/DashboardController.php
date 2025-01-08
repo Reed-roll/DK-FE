@@ -32,7 +32,7 @@ class DashboardController extends BaseController
         if (!session()->get('logged_in') || session()->get('role') !== 'creator') {
             return redirect()->to('login');
         }
-
+    
         $client = \Config\Services::curlrequest();
         $userName = session()->get('name');
         
@@ -44,7 +44,24 @@ class DashboardController extends BaseController
             
             log_message('debug', 'Response status: ' . $response->getStatusCode());
             log_message('debug', 'Response body: ' . $response->getBody());
-
+    
+            // Add project fetch with logging and authentication
+            log_message('debug', '[Project] Making request to: ' . $this->baseURL . '/project/findByUser');
+            log_message('debug', '[Project] Session ID: ' . session()->get('api_session_id'));
+            
+            $projectResponse = null;
+            try {
+                $projectResponse = $client->post($this->baseURL . '/project/findByUser', [
+                    'headers' => [
+                        'Cookie' => 'ci_session=' . session()->get('api_session_id')
+                    ]
+                ]);
+                log_message('debug', '[Project] Response status: ' . $projectResponse->getStatusCode());
+                log_message('debug', '[Project] Response body: ' . $projectResponse->getBody());
+            } catch (\Exception $e) {
+                log_message('error', '[Project] Fetch error: ' . $e->getMessage());
+            }
+    
             return view('dashboard/creator', [
                 'title' => 'Creator Dashboard',
                 'creator' => [
@@ -54,14 +71,17 @@ class DashboardController extends BaseController
                 'debug' => [
                     'url' => $this->baseURL . '/portfolio/findAll',
                     'response' => $response->getBody(),
-                    'status' => $response->getStatusCode()
+                    'status' => $response->getStatusCode(),
+                    'project_debug' => isset($projectResponse) ? [
+                        'response' => $projectResponse->getBody(),
+                        'status' => $projectResponse->getStatusCode()
+                    ] : null
                 ],
                 'baseURL' => $this->baseURL
             ]);
-
+    
         } catch (\Exception $e) {
             log_message('error', 'Dashboard error: ' . $e->getMessage());
-            
             return view('dashboard/creator', [
                 'title' => 'Creator Dashboard',
                 'error' => 'Failed to load dashboard. Please try again later.',
@@ -166,6 +186,184 @@ class DashboardController extends BaseController
         }
     }
 
+    public function updateProject($id)
+    {
+        // Check if user is logged in and is a creator
+        if (!session()->get('logged_in') || session()->get('role') !== 'creator') {
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Unauthorized access'
+            ]);
+        }
+
+        $client = \Config\Services::curlrequest();
+        
+        try {
+            log_message('debug', '[Project Update] Making request to: ' . $this->baseURL . '/project/update');
+            
+            // Get the request data
+            $status = $this->request->getPost('status');
+            
+            // Make request to update project
+            $response = $client->post($this->baseURL . '/project/update', [
+                'headers' => [
+                    'Cookie' => 'ci_session=' . session()->get('api_session_id')
+                ],
+                'form_params' => [
+                    'id' => $id,
+                    'status' => $status
+                ]
+            ]);
+
+            log_message('debug', '[Project Update] Response status: ' . $response->getStatusCode());
+            log_message('debug', '[Project Update] Response body: ' . $response->getBody());
+
+            if ($response->getStatusCode() === 200) {
+                return $this->response->setJSON([
+                    'success' => true,
+                    'message' => 'Project berhasil diupdate'
+                ]);
+            }
+
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Gagal mengupdate project'
+            ]);
+
+        } catch (\Exception $e) {
+            log_message('error', '[Project Update] Error: ' . $e->getMessage());
+            log_message('error', '[Project Update] Trace: ' . $e->getTraceAsString());
+            
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Terjadi kesalahan: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function deleteProject($id)
+    {
+        // Check if user is logged in and is a creator
+        if (!session()->get('logged_in') || session()->get('role') !== 'creator') {
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Unauthorized access'
+            ]);
+        }
+
+        $client = \Config\Services::curlrequest();
+        
+        try {
+            log_message('debug', '[Project Delete] Making request to: ' . $this->baseURL . '/project/delete');
+            
+            // Make request to delete project
+            $response = $client->post($this->baseURL . '/project/delete', [
+                'headers' => [
+                    'Cookie' => 'ci_session=' . session()->get('api_session_id')
+                ],
+                'form_params' => [
+                    'id' => $id
+                ]
+            ]);
+
+            log_message('debug', '[Project Delete] Response status: ' . $response->getStatusCode());
+            log_message('debug', '[Project Delete] Response body: ' . $response->getBody());
+
+            if ($response->getStatusCode() === 200) {
+                return $this->response->setJSON([
+                    'success' => true,
+                    'message' => 'Project berhasil dihapus'
+                ]);
+            }
+
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Gagal menghapus project'
+            ]);
+
+        } catch (\Exception $e) {
+            log_message('error', '[Project Delete] Error: ' . $e->getMessage());
+            log_message('error', '[Project Delete] Trace: ' . $e->getTraceAsString());
+            
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Terjadi kesalahan: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function createProject()
+    {
+        // Check if user is logged in and is a creator
+        if (!session()->get('logged_in') || session()->get('role') !== 'creator') {
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Unauthorized access'
+            ]);
+        }
+
+        $client = \Config\Services::curlrequest();
+        
+        try {
+            log_message('debug', '[Project Create] Making request to: ' . $this->baseURL . '/project/create');
+            
+            // Get the request data
+            $projectData = [
+                'client_id' => $this->request->getPost('client_id'),
+                'title' => $this->request->getPost('title'),
+                'description' => $this->request->getPost('description'),
+                'category' => $this->request->getPost('category'),
+                'status' => 'pending', // Default status
+                'deadline' => $this->request->getPost('deadline')
+            ];
+            
+            // Make request to create project
+            $response = $client->post($this->baseURL . '/project/create', [
+                'headers' => [
+                    'Cookie' => 'ci_session=' . session()->get('api_session_id')
+                ],
+                'form_params' => $projectData
+            ]);
+
+            log_message('debug', '[Project Create] Response status: ' . $response->getStatusCode());
+            log_message('debug', '[Project Create] Response body: ' . $response->getBody());
+
+            if ($response->getStatusCode() === 201) {
+                return $this->response->setJSON([
+                    'success' => true,
+                    'message' => 'Project berhasil dibuat'
+                ]);
+            }
+
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Gagal membuat project'
+            ]);
+
+        } catch (\Exception $e) {
+            log_message('error', '[Project Create] Error: ' . $e->getMessage());
+            log_message('error', '[Project Create] Trace: ' . $e->getTraceAsString());
+            
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Terjadi kesalahan: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    private function getClientName($id)
+    {
+        $client = \Config\Services::curlrequest();
+        try {
+            $response = $client->get($this->baseURL . '/users/findNameById?id=' . $id);
+            $data = json_decode($response->getBody(), true);
+            return $data['name'] ?? 'Client #' . $id;
+        } catch (\Exception $e) {
+            log_message('error', 'Error fetching client name: ' . $e->getMessage());
+            return 'Client #' . $id;
+        }
+    }
+
     // Client dashboard
     public function clientDashboard()
     {
@@ -173,29 +371,35 @@ class DashboardController extends BaseController
         if (!session()->get('logged_in') || session()->get('role') !== 'client') {
             return redirect()->to('login');
         }
-
-        $userId = session()->get('user_id');
-
-        // Get client's projects
-        $curl = curl_init();
-        curl_setopt_array($curl, [
-            CURLOPT_URL => $this->baseURL . '/project/findByUser',
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_POST => true,
-            CURLOPT_POSTFIELDS => http_build_query([
-                'user_id' => $userId
-            ])
-        ]);
-        
-        $response = curl_exec($curl);
-        $projects = json_decode($response, true);
-        curl_close($curl);
-
-        $data = [
-            'title' => 'Client Dashboard',
-            'projects' => $projects['data'] ?? [],
-        ];
-
-        return view('dashboard/client', $data);
+    
+        $client = \Config\Services::curlrequest();
+        $apiSessionId = session()->get('api_session_id');
+    
+        try {
+            // Make request to get user's projects
+            $response = $client->post($this->baseURL . '/project/findByUser', [
+                'headers' => [
+                    'Cookie' => 'ci_session=' . $apiSessionId
+                ]
+            ]);
+            
+            $projects = json_decode($response->getBody(), true);
+            
+            return view('dashboard/client', [
+                'title' => 'Client Dashboard',
+                'projects' => $projects['data'] ?? [],
+                'baseURL' => $this->baseURL
+            ]);
+    
+        } catch (\Exception $e) {
+            log_message('error', 'Failed to fetch projects: ' . $e->getMessage());
+            
+            return view('dashboard/client', [
+                'title' => 'Client Dashboard',
+                'projects' => [],
+                'error' => 'Failed to load projects. Please try again later.',
+                'baseURL' => $this->baseURL
+            ]);
+        }
     }
 }

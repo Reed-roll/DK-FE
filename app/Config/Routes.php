@@ -28,6 +28,9 @@ $routes->get('creator/dashboard', 'DashboardController::creatorDashboard');
 $routes->get('client/dashboard', 'DashboardController::clientDashboard');
 $routes->get('dashboard/deletePortfolio/(:num)', 'DashboardController::deletePortfolio/$1');
 $routes->post('dashboard/updatePortfolio/(:num)', 'DashboardController::updatePortfolio/$1');
+$routes->post('dashboard/updateProject/(:num)', 'DashboardController::updateProject/$1');
+$routes->post('dashboard/deleteProject/(:num)', 'DashboardController::deleteProject/$1');
+$routes->post('dashboard/createProject', 'DashboardController::createProject');
 
 // Feed routes
 $routes->get('feed', 'FeedController::index');
