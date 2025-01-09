@@ -49,15 +49,6 @@
                 <?php endif; ?>
             </div>
         </div>
-
-        <?php if (session()->get('role') === 'client'): ?>
-            <div class="text-center">
-                <a href="/project/create/<?= $creator['id'] ?>" 
-                   class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700">
-                    Buat Project dengan Kreator Ini
-                </a>
-            </div>
-        <?php endif; ?>
     <?php endif; ?>
 </div>
 <?= $this->endSection() ?>
