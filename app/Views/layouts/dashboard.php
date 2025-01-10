@@ -13,7 +13,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="/" class="text-2xl font-bold text-indigo-600">DigitalKreator</a>
+                        <a href="/" class="text-2xl font-bold text-red-600">DigitalKreator</a>
                     </div>
                 </div>
                 <div class="flex items-center">
