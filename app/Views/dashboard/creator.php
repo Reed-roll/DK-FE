@@ -2,10 +2,10 @@
 
 <?= $this->section('content') ?>
 <!-- Edit Portfolio Modal -->
-<div id="editModal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+<div id="editModal" class="hidden fixed inset-0 bg-gray-600/50 backdrop-blur-sm overflow-y-auto h-full w-full z-50">
+    <div class="relative top-20 mx-auto p-6 border w-96 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl bg-white/70 backdrop-blur-lg transform transition-all duration-200">
         <div class="mt-3">
-            <h3 class="text-lg font-medium text-gray-900 mb-4">Edit Portfolio</h3>
+            <h3 class="text-lg font-medium bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600 mb-4">Edit Portfolio</h3>
             <form id="editForm" class="space-y-4">
                 <input type="hidden" id="editPortfolioId" name="id">
                 <div>
@@ -40,8 +40,8 @@
 </div>
 
 <!-- Update Project Modal -->
-<div id="updateProjectModal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+<div id="updateProjectModal" class="hidden fixed inset-0 bg-gray-600/50 backdrop-blur-sm overflow-y-auto h-full w-full z-50">
+    <div class="relative top-20 mx-auto p-6 border w-96 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl bg-white/70 backdrop-blur-lg">
         <div class="mt-3">
             <h3 class="text-lg font-medium text-gray-900 mb-4">Update Status Project</h3>
             <form id="updateProjectForm" class="space-y-4">
@@ -72,8 +72,8 @@
 </div>
 
 <!-- Create Project Modal -->
-<div id="createProjectModal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+<div id="createProjectModal" class="hidden fixed inset-0 bg-gray-600/50 backdrop-blur-sm overflow-y-auto h-full w-full z-50">
+    <div class="relative top-20 mx-auto p-6 border w-96 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-2xl bg-white/70 backdrop-blur-lg">
         <div class="mt-3">
             <h3 class="text-lg font-medium text-gray-900 mb-4">Buat Project Baru</h3>
             <form id="createProjectForm" class="space-y-4">
@@ -130,16 +130,17 @@
     </div>
 </div>
 
-<div class="bg-white rounded-lg shadow p-6">
+<div class="bg-white/70 backdrop-blur-lg rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 p-8 animate-fadeIn">
     <!-- Header Section -->
-    <div class="flex justify-between items-center mb-6">
-        <h2 class="text-2xl font-bold text-gray-900">Dashboard Kreator</h2>
+    <div class="flex justify-between items-center mb-8">
+        <h2 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Dashboard Kreator</h2>
         <div class="flex space-x-4">
             <button onclick="openCreateProjectModal()" 
-                    class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
+                    class="bg-gradient-to-r from-red-600 to-orange-600 text-white px-6 py-2 rounded-xl hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5">
                 Tambah Project
             </button>
-            <a href="/portfolio/create" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
+            <a href="/portfolio/create" 
+               class="bg-gradient-to-r from-red-600 to-orange-600 text-white px-6 py-2 rounded-xl hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5">
                 Tambah Portfolio
             </a>
         </div>
@@ -160,7 +161,7 @@
 
     <!-- Portfolio Section -->
     <div class="mb-12">
-        <h3 class="text-xl font-semibold text-gray-900 mb-4">Portfolio Saya</h3>
+        <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600 mb-6">Portfolio Saya</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <?php 
             $portfolioData = json_decode($debug['response'], true);
@@ -217,15 +218,15 @@
 
     <!-- Projects Section -->
     <div class="mt-12">
-        <h3 class="text-xl font-semibold text-gray-900 mb-4">Project Aktif</h3>
-        <div class="space-y-4">
+        <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600 mb-6">Project Aktif</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <?php 
             $projectData = $debug['project_debug']['response'] ?? null;
             $projects = json_decode($projectData, true);
             
             if (empty($projects) || empty($projects['data'])): 
             ?>
-                <div class="text-center py-8">
+                <div class="col-span-full text-center py-12">
                     <p class="text-gray-500">Belum ada project yang aktif</p>
                 </div>
             <?php else: ?>
@@ -240,55 +241,64 @@
                         $clientName = 'Client #' . $project['client_id'];
                     }
                 ?>
-                    <div class="border rounded-lg p-4 hover:shadow-md transition-shadow bg-white">
-                        <div class="flex justify-between items-start">
-                            <div class="space-y-2">
+                    <div class="bg-white/70 backdrop-blur-sm border border-gray-100 rounded-xl overflow-hidden hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1">
+                        <div class="p-6">
+                            <!-- Header with Status -->
+                            <div class="flex justify-between items-start mb-4">
                                 <h4 class="text-lg font-semibold text-gray-900"><?= esc($project['title']) ?></h4>
-                                <p class="text-gray-600"><?= esc($project['description']) ?></p>
-                                <div class="flex items-center space-x-4">
-                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
-                                        <?php
-                                        switch(strtolower($project['status'])) {
-                                            case 'pending':
-                                                echo 'bg-yellow-100 text-yellow-800';
-                                                break;
-                                            case 'process':
-                                                echo 'bg-blue-100 text-blue-800';
-                                                break;
-                                            case 'review':
-                                                echo 'bg-purple-100 text-purple-800';
-                                                break;
-                                            case 'done':
-                                                echo 'bg-green-100 text-green-800';
-                                                break;
-                                            default:
-                                                echo 'bg-gray-100 text-gray-800';
-                                        }
-                                        ?>">
-                                        <?= esc($project['status']) ?>
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium 
+                                    <?php
+                                    switch(strtolower($project['status'])) {
+                                        case 'pending':
+                                            echo 'bg-gradient-to-r from-yellow-100 to-amber-100 text-yellow-800';
+                                            break;
+                                        case 'process':
+                                            echo 'bg-gradient-to-r from-blue-100 to-indigo-100 text-blue-800';
+                                            break;
+                                        case 'review':
+                                            echo 'bg-gradient-to-r from-purple-100 to-fuchsia-100 text-purple-800';
+                                            break;
+                                        case 'done':
+                                            echo 'bg-gradient-to-r from-green-100 to-emerald-100 text-green-800';
+                                            break;
+                                        default:
+                                            echo 'bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800';
+                                    }
+                                    ?>">
+                                    <?= esc($project['status']) ?>
+                                </span>
+                            </div>
+
+                            <!-- Description -->
+                            <p class="text-gray-600 mb-4 line-clamp-2"><?= esc($project['description']) ?></p>
+
+                            <!-- Category Badge -->
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-red-100 to-orange-100 text-red-600">
+                                <?= esc($project['category']) ?>
+                            </span>
+
+                            <!-- Client & Deadline Info -->
+                            <div class="mt-4 pt-4 border-t border-gray-100">
+                                <div class="flex justify-between items-center text-sm">
+                                    <span class="text-gray-600">
+                                        <span class="font-medium">Client:</span> <?= esc($clientName) ?>
                                     </span>
-                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                                        <?= esc($project['category']) ?>
+                                    <span class="text-red-600 font-medium">
+                                        <?= date('d M Y', strtotime($project['deadline'])) ?>
                                     </span>
-                                </div>
-                                <div class="mt-4 flex space-x-2">
-                                    <button onclick="openUpdateProjectModal(<?= htmlspecialchars(json_encode($project)) ?>)" 
-                                            class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 text-sm">
-                                        Update Status
-                                    </button>
-                                    <button onclick="deleteProject(<?= $project['id'] ?>)"
-                                            class="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700 text-sm">
-                                        Hapus
-                                    </button>
                                 </div>
                             </div>
-                            <div class="text-right">
-                                <div class="text-sm text-gray-500 mb-2">
-                                    Client: <?= esc($clientName) ?>
-                                </div>
-                                <div class="text-sm font-medium text-red-600">
-                                    Deadline: <?= date('d M Y', strtotime($project['deadline'])) ?>
-                                </div>
+
+                            <!-- Action Buttons -->
+                            <div class="mt-4 flex space-x-2">
+                                <button onclick="openUpdateProjectModal(<?= htmlspecialchars(json_encode($project)) ?>)" 
+                                        class="flex-1 bg-gradient-to-r from-red-600 to-orange-600 text-white px-4 py-2 rounded-xl hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5 text-sm font-medium">
+                                    Update Status
+                                </button>
+                                <button onclick="deleteProject(<?= $project['id'] ?>)"
+                                        class="px-4 py-2 border border-red-200 text-red-600 rounded-xl hover:bg-red-50 transition-all duration-200 text-sm font-medium">
+                                    Hapus
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -297,6 +307,16 @@
         </div>
     </div>
 </div>
+
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+}
+</style>
 
 <script>
 // DOM Elements and Constants
