@@ -134,16 +134,6 @@
     <!-- Header Section -->
     <div class="flex justify-between items-center mb-8">
         <h2 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Dashboard Kreator</h2>
-        <div class="flex space-x-4">
-            <button onclick="openCreateProjectModal()" 
-                    class="bg-gradient-to-r from-red-600 to-orange-600 text-white px-6 py-2 rounded-xl hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5">
-                Tambah Project
-            </button>
-            <a href="/portfolio/create" 
-               class="bg-gradient-to-r from-red-600 to-orange-600 text-white px-6 py-2 rounded-xl hover:opacity-90 transition-all duration-200 hover:-translate-y-0.5">
-                Tambah Portfolio
-            </a>
-        </div>
     </div>
 
     <!-- Flash Messages -->
@@ -161,7 +151,16 @@
 
     <!-- Portfolio Section -->
     <div class="mb-12">
-        <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600 mb-6">Portfolio Saya</h3>
+        <div class="flex justify-between items-center mb-6">
+            <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Portfolio Saya</h3>
+            <a href="/portfolio/create" 
+               class="group relative inline-flex items-center justify-center bg-gradient-to-r from-red-600 to-orange-600 text-white h-10 w-10 rounded-xl hover:w-auto hover:px-4 transition-all duration-200 hover:-translate-y-0.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+                <span class="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 transition-all duration-200 ease-in-out">Tambah Portfolio</span>
+            </a>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <?php 
             $portfolioData = json_decode($debug['response'], true);
@@ -218,7 +217,16 @@
 
     <!-- Projects Section -->
     <div class="mt-12">
-        <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600 mb-6">Project Aktif</h3>
+        <div class="flex justify-between items-center mb-6">
+            <h3 class="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Project Aktif</h3>
+            <button onclick="openCreateProjectModal()" 
+                    class="group relative inline-flex items-center justify-center bg-gradient-to-r from-red-600 to-orange-600 text-white h-10 w-10 rounded-xl hover:w-auto hover:px-4 transition-all duration-200 hover:-translate-y-0.5">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+                <span class="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 transition-all duration-200 ease-in-out">Tambah Project</span>
+            </button>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <?php 
             $projectData = $debug['project_debug']['response'] ?? null;

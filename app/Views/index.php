@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalKreator - Platform Kolaborasi Kreator Digital</title>
+    <title>Digital Kreator - Platform Kolaborasi Kreator Digital</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <style>
@@ -23,11 +23,11 @@
     <nav class="bg-white/70 backdrop-blur-lg shadow-sm fixed w-full z-50">
         <div class="container mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
-                <a href="/" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">DigitalKreator</a>
+                <a href="/" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Digital Kreator</a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#layanan" class="text-gray-600 hover:text-red-600 transition-colors">Layanan</a>
-                    <a href="#cara-kerja" class="text-gray-600 hover:text-red-600 transition-colors">Cara Kerja</a>
-                    <a href="/feed" class="text-gray-600 hover:text-red-600 transition-colors">Lihat Projek</a>
+                    <a href="#layanan" class="text-gray-600 hover:text-red-600 transition-colors">Our Services</a>
+                    <a href="#cara-kerja" class="text-gray-600 hover:text-red-600 transition-colors">How it works</a>
+                    <a href="/feed" class="text-gray-600 hover:text-red-600 transition-colors">Portfolio feed</a>
                 </div>
                 <div class="space-x-4">
                     <?php if (session()->get('logged_in')): ?>
@@ -107,7 +107,7 @@
             <!-- Feed Button -->
             <div class="text-center">
                 <a href="/feed" class="inline-block bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-all duration-200 transform hover:-translate-y-0.5">
-                    See New Projects
+                    See New Portfolios
                 </a>
             </div>
         </div>
@@ -116,7 +116,7 @@
     <!-- How It Works Section -->
     <section id="cara-kerja" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">Cara Kerja</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-orange-600">How It Works</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Step cards with updated styling -->
                 <div class="text-center bg-white/70 backdrop-blur-lg p-6 rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-gray-100 hover:transform hover:-translate-y-1 transition-all duration-200">

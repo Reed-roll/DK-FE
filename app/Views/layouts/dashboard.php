@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?> - DigitalKreator</title>
+    <title><?= $title ?> - Digital Kreator</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50">
@@ -13,7 +13,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="/" class="text-2xl font-bold text-red-600">DigitalKreator</a>
+                        <a href="/" class="text-2xl font-bold text-red-600">Digital Kreator</a>
                     </div>
                 </div>
                 <div class="flex items-center">
